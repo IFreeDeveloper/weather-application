@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... strings) {
             String stringUrl = "http://mpianatra.com/Courses/info.txt";
+            String stringUrl123 = "hyk";
             HttpURLConnection urlConnection = null;
             BufferedReader reader;
 
